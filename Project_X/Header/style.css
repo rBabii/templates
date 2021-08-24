@@ -1,0 +1,24 @@
+*, * *, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+
+.header {
+	background-image: url(/images/Headerbgc.svg);
+	min-height: 100vh;
+}
+
+.logo {
+	display: flex;
+	padding: 51px 94px 55px;
+}
+
+.menu{
+	display: flex;
+}
