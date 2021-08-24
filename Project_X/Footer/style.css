@@ -1,0 +1,55 @@
+*, * *, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.footer {
+    min-height: 460px;
+    height: 460px;
+    background-color: black;
+    color: white;
+}
+.footer-wrapper{
+    height: 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+
+footer-col{
+
+}
+
+.footer-menu-header{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-logo div{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-menu-items {
+    margin-top: 35px;
+}
+.footer-menu-item{
+    margin-top: 25px;
+}
